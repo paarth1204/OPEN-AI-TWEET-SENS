@@ -12,7 +12,7 @@ const corsOptions = {
 };
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "YOUR_API_KEY_HERE",
 });
 
 app.use(cors(corsOptions));
